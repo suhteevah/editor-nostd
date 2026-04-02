@@ -1,0 +1,14 @@
+[package]
+name = "editor-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matt Gates <suhteevah@gmail.com>"]
+description = "A minimal nano-like text editor for no_std / bare-metal / embedded environments"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/suhteevah/editor-nostd"
+keywords = ["editor", "text", "nano", "no_std", "embedded"]
+categories = ["no-std", "text-editors"]
+readme = "README.md"
+
+[dependencies]
+pc-keyboard = "0.8"
